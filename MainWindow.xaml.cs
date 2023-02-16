@@ -24,5 +24,10 @@ namespace GithubVoorbeelden
         {
             InitializeComponent();
         }
+
+        private void btnClick_Click(object sender, RoutedEventArgs e)
+        {
+            txtOutPut.Content = "Hello World";
+        }
     }
 }
