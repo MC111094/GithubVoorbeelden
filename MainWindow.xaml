@@ -9,6 +9,7 @@
     <Grid>
         <Button x:Name="btnClick" Content="Button" HorizontalAlignment="Left" Margin="109,71,0,0" VerticalAlignment="Top" Click="btnClick_Click"/>
         <Label x:Name="txtOutPut" Content="" HorizontalAlignment="Left" Margin="109,120,0,0" VerticalAlignment="Top" Width="58"/>
+        <Label x:Name="lblTeller" Content="Label" HorizontalAlignment="Left" Margin="367,81,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

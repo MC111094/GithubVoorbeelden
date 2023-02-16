@@ -23,11 +23,14 @@ namespace GithubVoorbeelden
         public MainWindow()
         {
             InitializeComponent();
+            lblTeller.Content = 0;
         }
 
         private void btnClick_Click(object sender, RoutedEventArgs e)
         {
             txtOutPut.Content = "Hello World";
+            int teller = Convert.ToInt32(lblTeller.Content);
+            lblTeller.Content = teller.ToString();
         }
     }
 }
